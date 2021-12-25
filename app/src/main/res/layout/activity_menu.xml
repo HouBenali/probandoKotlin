@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/options"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/black_border"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:text="@string/options"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="@id/menuButtonsWidthStartLine"
+        app:layout_constraintEnd_toEndOf="@id/menuButtonsWidthLastLine"
+        app:layout_constraintTop_toTopOf="@id/textStartLine"
+        app:layout_constraintBottom_toBottomOf="@id/textBackLine"
+        />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="@dimen/_20sdp"
+        app:layout_constraintStart_toStartOf="@id/menuButtonsWidthStartLine"
+        app:layout_constraintEnd_toEndOf="@id/menuButtonsWidthLastLine"
+        app:layout_constraintTop_toTopOf="@id/saveStartLine"
+        app:layout_constraintBottom_toBottomOf="@id/loadStartLine"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/loadBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="@dimen/_20sdp"
+        app:layout_constraintStart_toStartOf="@id/menuButtonsWidthStartLine"
+        app:layout_constraintEnd_toEndOf="@id/menuButtonsWidthLastLine"
+        app:layout_constraintTop_toTopOf="@id/loadStartLine"
+        app:layout_constraintBottom_toBottomOf="@id/backStartLine"
+        android:text="@string/load" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="@dimen/_20sdp"
+        app:layout_constraintStart_toStartOf="@id/menuButtonsWidthStartLine"
+        app:layout_constraintEnd_toEndOf="@id/menuButtonsWidthLastLine"
+        app:layout_constraintTop_toTopOf="@id/backStartLine"
+        app:layout_constraintBottom_toBottomOf="@id/backEndLine"
+        android:text="@string/back" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/menuButtonsWidthStartLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/menuButtonsWidthLastLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/textStartLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/textBackLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.30" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/saveStartLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/loadStartLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/backStartLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/backEndLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+</androidx.constraintlayout.widget.ConstraintLayout>

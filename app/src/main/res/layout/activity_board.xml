@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fondo1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".BoardActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/black_border_2dp"
+        android:padding="5dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintTop_toTopOf="@id/boardTopLine"
+        app:layout_constraintBottom_toBottomOf="@id/boartBottomLine"
+        app:layout_constraintStart_toStartOf="@id/boardStartLine"
+        app:layout_constraintEnd_toEndOf="@id/boardEndLine">
+
+        <ImageButton
+            android:id="@+id/casilla1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical0"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical1"
+            app:layout_constraintTop_toTopOf="@id/boardLine0"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine1"/>
+
+        <ImageButton
+            android:id="@+id/casilla2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical1"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical2"
+            app:layout_constraintTop_toTopOf="@id/boardLine0"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine1"/>
+
+        <ImageButton
+            android:id="@+id/casilla3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical2"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical3"
+            app:layout_constraintTop_toTopOf="@id/boardLine0"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine1"/>
+
+        <ImageButton
+            android:id="@+id/casilla4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical3"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical4"
+            app:layout_constraintTop_toTopOf="@id/boardLine0"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine1"/>
+
+        <ImageButton
+            android:id="@+id/casilla5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical0"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical1"
+            app:layout_constraintTop_toTopOf="@id/boardLine1"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine2"/>
+
+        <ImageButton
+            android:id="@+id/casilla6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical1"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical2"
+            app:layout_constraintTop_toTopOf="@id/boardLine1"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine2"/>
+
+        <ImageButton
+            android:id="@+id/casilla7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical2"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical3"
+            app:layout_constraintTop_toTopOf="@id/boardLine1"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine2"/>
+
+        <ImageButton
+            android:id="@+id/casilla8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical3"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical4"
+            app:layout_constraintTop_toTopOf="@id/boardLine1"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine2"/>
+
+        <ImageButton
+            android:id="@+id/casilla9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical0"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical1"
+            app:layout_constraintTop_toTopOf="@id/boardLine2"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine3"/>
+
+        <ImageButton
+            android:id="@+id/casilla10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical1"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical2"
+            app:layout_constraintTop_toTopOf="@id/boardLine2"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine3"/>
+
+        <ImageButton
+            android:id="@+id/casilla11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical2"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical3"
+            app:layout_constraintTop_toTopOf="@id/boardLine2"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine3"/>
+
+        <ImageButton
+            android:id="@+id/casilla12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical3"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical4"
+            app:layout_constraintTop_toTopOf="@id/boardLine2"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine3"/>
+
+        <ImageButton
+            android:id="@+id/casilla13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical0"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical1"
+            app:layout_constraintTop_toTopOf="@id/boardLine3"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine4"/>
+
+        <ImageButton
+            android:id="@+id/casilla14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical1"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical2"
+            app:layout_constraintTop_toTopOf="@id/boardLine3"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine4"/>
+
+        <ImageButton
+            android:id="@+id/casilla15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical2"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical3"
+            app:layout_constraintTop_toTopOf="@id/boardLine3"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine4"/>
+
+        <ImageButton
+            android:id="@+id/casilla16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/black_border_1dp"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="@id/boardLineVertical3"
+            app:layout_constraintEnd_toEndOf="@id/boardLineVertical4"
+            app:layout_constraintTop_toTopOf="@id/boardLine3"
+            app:layout_constraintBottom_toBottomOf="@id/boardLine4"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/boardLine0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/boardLine1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.25" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/boardLine2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.50" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/boardLine3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.75" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/boardLine4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="1" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/boardLineVertical0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/boardLineVertical1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.25" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/boardLineVertical2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/boardLineVertical3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.75" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/boardLineVertical4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/boardTopLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/boartBottomLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/boardStartLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/boardEndLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1" />
+
+
+    <ImageButton
+        android:id="@+id/configButton1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/config"
+        android:src="@drawable/config"
+        android:scaleType="fitXY"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="@+id/configStart"
+        app:layout_constraintEnd_toEndOf="@id/configEnd"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/configBottom"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/configBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/configStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.92" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/configEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.99" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

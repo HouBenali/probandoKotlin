@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Card Monsters</string>
+    <string name="avatar">avatar</string>
+    <string name="nombre">nombre</string>
+    <string name="nivel">nivel</string>
+    <string name="save">save</string>
+    <string name="monsters">monsters</string>
+    <string name="here_goes_the_intro_of_the_story">here goes the intro of the story</string>
+    <string name="options">options</string>
+    <string name="start">start</string>
+    <string name="input_your_username">Input your username:</string>
+    <string name="input_your_username_here">Input your username here…</string>
+    <string name="confirm">confirm</string>
+    <string name="load">load</string>
+    <string name="back">back</string>
+    <string name="exit_game">Exit</string>
+    <string name="exit_game_description">Close the game</string>
+    <string name="play">play</string>
+    <string name="inventory">inventory</string>
+    <string name="shop">shop</string>
+    <string name="book">book</string>
+    <string name="config">config</string>
+    <string name="not_implemented">not implemented</string>
+    <string name="next">next</string>
+</resources>
